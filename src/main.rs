@@ -1,3 +1,5 @@
+use tmr::start_timer;
+
 fn main() {
-    println!("Hello, world!");
+    start_timer(1, 5)
 }
